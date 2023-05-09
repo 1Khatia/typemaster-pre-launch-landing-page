@@ -1,0 +1,600 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap");
+
+body {
+  background: #ffffff;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  width: 327px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  margin: 23px auto 64px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  padding-right: 136px;
+}
+.first {
+  width: 151px;
+  height: 48px;
+  background: #e8eff2;
+  border-radius: 8px;
+  border: none;
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #162542;
+  padding: 11px 14.5px 11px 13.5px;
+}
+main {
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.typemaster {
+  width: 327px;
+  height: 286px;
+  margin-left: 24px;
+  margin-bottom: 64px;
+}
+h1 {
+  font-family: "Barlow";
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #162542;
+}
+.improve {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+  margin: 32px auto;
+}
+.pre {
+  display: flex;
+  align-items: center;
+  width: 310px;
+  height: 48px;
+}
+.second {
+  width: 150px;
+  height: 48px;
+  background: #f16718;
+  border-radius: 8px;
+  border: none;
+  margin-right: 32px;
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 11px 14px;
+}
+.release {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #7b8bad;
+}
+.mobile-keyboard {
+  width: 372px;
+  height: 331px;
+  border-radius: 20px 0px 0px 20px;
+  margin: 0px -21px 24px 24px;
+}
+.images {
+  display: flex;
+  align-items: center;
+  margin-bottom: 75px;
+}
+.picture {
+  position: relative;
+  width: 129px;
+  height: 193px;
+  margin-left: -22px;
+  margin-right: 24px;
+  border-radius: 0px 20px 20px 0px;
+  overflow: hidden;
+}
+.picture::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #ff7b25;
+  position: absolute;
+  z-index: -1;
+}
+.mobile-phone {
+  width: 129px;
+  height: 193px;
+  opacity: 0.25;
+}
+.mobile-glass {
+  width: 220px;
+  height: 193px;
+  margin-right: 24px;
+  border-radius: 20px;
+}
+h2 {
+  font-family: "Barlow";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #162542;
+  width: 255px;
+  height: 108px;
+  margin-left: 60px;
+}
+.keycaps {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7b8bad;
+  width: 327px;
+  height: 104px;
+  margin: 24px auto 111px;
+}
+.one {
+  box-sizing: border-box;
+}
+.compatible {
+  width: 25.14px;
+  height: 20.24px;
+  padding: 22.45px 19.86px 22.31px 20px;
+  background: #f16718;
+  border-radius: 16px;
+  margin-left: 155px;
+}
+h3 {
+  font-family: "Barlow";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #162542;
+  width: 327px;
+  height: 56px;
+  margin: 48px auto 24px;
+}
+.easy {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7b8bad;
+  width: 327px;
+  height: 104px;
+  margin-left: 24px;
+  margin-bottom: 64px;
+}
+.bluetooth {
+  width: 17.68px;
+  height: 27.86px;
+  padding: 19px 23.6px 18.14px 23.72px;
+  background: #f16718;
+  border-radius: 16px;
+  margin-left: 155px;
+}
+.powerful {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7b8bad;
+  width: 327px;
+  height: 104px;
+  margin-left: 24px;
+  margin-bottom: 64px;
+}
+.battery {
+  width: 31.99px;
+  height: 20px;
+  padding: 23.33px 17.01px 21.67px 16px;
+  background: #f16718;
+  border-radius: 16px;
+  margin-left: 155px;
+}
+.equipped {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7b8bad;
+  width: 327px;
+  height: 104px;
+  margin-left: 24px;
+  margin-bottom: 64px;
+}
+.light {
+  width: 32px;
+  height: 32px;
+  padding: 16px 17px;
+  background: #f16718;
+  border-radius: 16px;
+  margin-left: 155px;
+}
+.choose {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7b8bad;
+  width: 327px;
+  height: 104px;
+  margin-left: 27px;
+  margin-bottom: 96px;
+}
+.foot {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+  width: 272px;
+  height: 26px;
+  margin: 0px 52px 50px 51px;
+}
+span {
+  font-weight: 500;
+}
+.tablet-phone,
+.tablet-glass,
+.pattern,
+.square,
+.desktop-phone,
+.desktop-glass {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .mobile-keyboard,
+  .mobile-phone,
+  .mobile-glass,
+  .pattern,
+  .square,
+  .desktop-phone,
+  .desktop-glass {
+    display: none;
+  }
+  .tablet-keyboard,
+  .tablet-phone,
+  .tablet-glass {
+    display: block;
+  }
+  header {
+    width: 689px;
+    height: 58px;
+    margin: 40px auto 62px;
+  }
+  .logo {
+    padding-right: 474px;
+  }
+  .first {
+    width: 175px;
+    height: 58px;
+    padding: 16px 27px 16px 26px;
+  }
+  main {
+    width: 768px;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+  }
+  .keyboards {
+    background-image: url("./assets/tablet-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 478px;
+    height: 425px;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 69px;
+    overflow: hidden;
+  }
+  .typemaster {
+    width: 339px;
+    height: 305px;
+    margin-left: 39px;
+    margin-bottom: 0px;
+  }
+  .improve {
+    width: 339px;
+    margin: 39px 0px;
+  }
+  .pre {
+    width: 339px;
+    height: 58px;
+  }
+  .second {
+    width: 175px;
+    height: 58px;
+    margin-right: 37px;
+    padding: 16px 27px 16px 26px;
+  }
+  .images {
+    margin-top: 40px;
+    margin-bottom: 72px;
+  }
+  .picture {
+    position: relative;
+    width: 214px;
+    height: 320px;
+    margin-left: 39px;
+    margin-right: 30px;
+    border-radius: 20px;
+  }
+  .picture::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #ff7b25;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.75;
+  }
+  .tablet-phone {
+    width: 214px;
+    height: 320px;
+  }
+  .tablet-glass {
+    width: 445px;
+    height: 320px;
+    margin-right: 40px;
+    border-radius: 20px;
+  }
+  .wireless {
+    widows: 689px;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 142px;
+  }
+  h2 {
+    margin-left: 39px;
+    text-align: start;
+  }
+  .keycaps {
+    margin: 0px;
+    width: 398px;
+    height: 78px;
+    margin-left: 36px;
+    text-align: start;
+  }
+  .group {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 39px;
+    box-sizing: border-box;
+  }
+  .one {
+    width: 339px;
+    margin-right: 11px;
+  }
+  .compatible {
+    margin-left: 0px;
+  }
+  h3 {
+    width: 339px;
+    height: 56px;
+    margin: 40px auto 24px;
+    text-align: start;
+  }
+  .easy {
+    width: 281px;
+    margin-left: 0px;
+    margin-bottom: 72px;
+    text-align: start;
+  }
+  .bluetooth {
+    margin-left: 0px;
+  }
+  .powerful {
+    width: 281px;
+    margin-left: 0px;
+    margin-bottom: 72px;
+    text-align: start;
+  }
+  .battery {
+    margin-left: 0px;
+  }
+  .equipped {
+    width: 281px;
+    margin: 0px;
+    text-align: start;
+  }
+  .light {
+    margin-left: 0px;
+  }
+  .choose {
+    width: 281px;
+    margin: 0px;
+    text-align: start;
+  }
+  .foot {
+    margin: 142px auto 43px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .mobile-keyboard,
+  .mobile-phone,
+  .mobile-glass,
+  .tablet-phone,
+  .tablet-glass {
+    display: none;
+  }
+  header {
+    width: 1110px;
+    margin: 55px auto 83px;
+  }
+  .logo {
+    padding-right: 895px;
+  }
+  main {
+    width: 1440px;
+  }
+  .pattern,
+  .square,
+  .desktop-phone,
+  .desktop-glass {
+    display: block;
+  }
+  .typemaster {
+    width: 445px;
+    height: 312px;
+    margin-left: 165px;
+  }
+  h1 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .improve {
+    width: 445px;
+    font-size: 18px;
+    margin: 24px 0px;
+  }
+  .pre {
+    width: 445px;
+  }
+  .second {
+    margin-right: 40px;
+  }
+  .keyboards {
+    background-image: url("./assets/desktop-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 480px;
+    border-radius: 20px;
+    margin-left: 125px;
+    margin-right: 30px;
+  }
+  .pattern {
+    width: 255px;
+    height: 240px;
+    margin-right: -120px;
+    overflow: hidden;
+    margin-top: -230px;
+  }
+  .all {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .images {
+    margin: 0px;
+  }
+  .square {
+    width: 255px;
+    height: 256px;
+    margin-left: -120px;
+    margin-right: 30px;
+    overflow: hidden;
+    margin-bottom: -230px;
+  }
+  .picture {
+    position: relative;
+    width: 255px;
+    height: 480px;
+    margin-left: 0px;
+    margin-right: 30px;
+    border-radius: 20px;
+  }
+  .picture::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #ff7b25;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.75;
+  }
+  .desktop-phone {
+    width: 255px;
+    height: 480px;
+  }
+  .desktop-glass {
+    height: 480px;
+    margin-right: 125px;
+    border-radius: 20px;
+  }
+  .wireless {
+    widows: 255px;
+    height: 265px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    margin-left: 0px;
+  }
+  .keycaps {
+    margin: 0px;
+    width: 255px;
+    height: 130px;
+    margin-left: 0px;
+    margin-top: 27px;
+  }
+  .group {
+    width: 100%;
+    height: 323px;
+    margin-top: 168px;
+    margin-left: 165px;
+    gap: 30px;
+  }
+  .one,
+  .two,
+  .three,
+  .four {
+    width: 255px;
+    height: 289px;
+    margin-right: 0px;
+  }
+  .compatible {
+    margin-left: 0px;
+  }
+  h3 {
+    width: 255px;
+    margin: 48px auto 24px;
+  }
+  .easy,
+  .powerful,
+  .equipped,
+  .choose {
+    width: 255px;
+    height: 130px;
+    margin-bottom: 0px;
+  }
+  .foot {
+    margin: 128px auto 39px;
+  }
+}
